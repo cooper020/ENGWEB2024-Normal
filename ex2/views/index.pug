@@ -1,0 +1,29 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Minha Página Inicial
+    link(rel="stylesheet", href="https://www.w3schools.com/w3css/4/w3.css")
+  body
+    div(class="w3-container")
+      h1(class="w3-text-teal")= "LISTA DO CONTRATO"
+      table(class="w3-table w3-bordered w3-striped")
+        thead
+          tr
+            th(class="w3-teal") ID Contrato
+            th(class="w3-teal") Objecto Contrato
+            th(class="w3-teal") Data Celebração Contrato
+            th(class="w3-teal") Preço Contratual
+            th(class="w3-teal") NIPC entidade comunicante
+            th(class="w3-teal") Entidade Comunicante
+        tbody
+          each registo in data
+            tr
+              td
+                a(href=`${registo.idcontrato}`)= registro.idcontrato
+              td= registo.objectoContrato
+              td= registo.precoContratual
+              td 
+                a(href=`contratos?=${registo.NIPC_entidade_comunicante}`)= registo.NIPC_entidade_comunicante
+              td= registo.entidade_comunicante
