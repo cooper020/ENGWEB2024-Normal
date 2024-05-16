@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 const Contrato = require("../models/contratos");
 
+
+
 module.exports.list = () => {
     return Contrato
         .find()

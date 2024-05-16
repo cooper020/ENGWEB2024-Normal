@@ -4,9 +4,16 @@ var Contrato = require('../controllers/contratos');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  Contrato.list()
+    .then(function(contratos) {
+      res.render('index', { title: 'Express', data: contratos });
+    })
+    .catch(function(err) {
+      // Tratar o erro aqui
+      console.error(err);
+      res.status(500).send(err);
+    });
 });
-
 router.get('/:id', function (req, res) {
   const id = req.params.id;
 
