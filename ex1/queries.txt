@@ -158,3 +158,76 @@ db.contratos.aggregate([
 ])
 
 ->
+[
+  {
+    _id: 'A ARCIAL - Associação para Recuperação de Cidadãos Inadaptados de Oliveira do Hospital',
+    totalAmount: 5836.61
+  },
+  {
+    _id: 'A Oficina Centro de Artes e Mesteres Tradicionais de Guimarães, CIPRL',
+    totalAmount: 220713.27
+  },
+  {
+    _id: 'A. D. A. M. - Águas do Alto Minho, S. A.',
+    totalAmount: 27044.68
+  },
+  {
+    _id: 'ABIMOTA - Associação Nacional das Indústrias de Duas Rodas, Ferragens, Mobiliário e Afins',
+    totalAmount: 82000
+  },
+  {
+    _id: 'ABMG - Águas do Baixo Mondego e Gândara, E. I. M., S. A.',
+    totalAmount: 30963.02
+  },
+  { _id: 'AC, Águas de Coimbra, E. M.', totalAmount: 1304028.15 },
+  {
+    _id: 'ACA - Associação Casa da Arquitectura',
+    totalAmount: 96349.53
+  },
+  {
+    _id: 'ACAPORAMA - Associação de Casas do Povo da Região Autonoma da Madeira',
+    totalAmount: 18000
+  },
+  {
+    _id: 'ACISO - Associação Empresarial Ourém - Fátima',
+    totalAmount: 58410
+  },
+  {
+    _id: 'ACLEM - Arte, Cultura e Lazer, Empresa Municipal, E. M.',
+    totalAmount: 65624.8
+  },
+  {
+    _id: 'ACPMR - Associação Cluster Portugal Mineral Resources',
+    totalAmount: 80000.01
+  },
+  {
+    _id: 'AD ELO Associação de Desenvolvimento Local da Bairrada e Mondego',
+    totalAmount: 13666.77
+  },
+  {
+    _id: 'ADAE - Associação de Desenvolvimento da Alta Estremadura',
+    totalAmount: 15707
+  },
+  { _id: 'ADC - Águas da Covilhã, E. M.', totalAmount: 36470.8 },
+  { _id: 'ADD - Associação de Desenvolvimento do Dão', totalAmount: 0 },
+  {
+    _id: 'ADEMINHO - Associação para o Desenvolvimento do Ensino Profissional do Alto Minho Interior',
+    totalAmount: 112137.9
+  },
+  {
+    _id: 'ADENE - Agência para a Energia',
+    totalAmount: 411155.17000000004
+  },
+  {
+    _id: 'ADEPTOLIVA - Associação para o Desenvolvimento do Ensino Profissional dos Concelhos de Tábua, Oliveira do Hospital e Arganil',
+    totalAmount: 5550
+  },
+  {
+    _id: 'ADER-AL - Associação para o Desenvolvimento do Espaço Rural do Norte do Alentejo',
+    totalAmount: 34874
+  },
+  {
+    _id: 'ADICE - Associação para o Desenvolvimento Integrado da Cidade de Ermesinde',
+    totalAmount: 49065.22
+  }
+]
